@@ -12,7 +12,11 @@ const STATIC_ASSETS = [
   '/favicon.ico',
   '/screenshots/screenshot1.png',
   '/screenshots/screenshot2.png',
+  '/Icons/icon512_maskable.png',
+  '/Icons/icon512_rounded.png',
 
+
+  
   // Add other static files you want to cache
 ];
 
