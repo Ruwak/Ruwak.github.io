@@ -5,15 +5,15 @@ const DYNAMIC_CACHE_NAME = 'my-app-dynamic-cache-v1';
 // Files to cache during install
 const STATIC_ASSETS = [
   '/', 
-  '/index.html',
-  '/style.css',
-  '/manifest.js',
-  '/apiexample.js',
-  '/favicon.ico',
-  '/screenshots/screenshot1.png',
-  '/screenshots/screenshot2.png',
-  '/Icons/icon512_maskable.png',
-  '/Icons/icon512_rounded.png',
+  'index.html',
+  'style.css',
+  'manifest.js',
+  'apiexample.js',
+  'favicon.ico',
+  'screenshots/screenshot1.png',
+  'screenshots/screenshot2.png',
+  'Icons/icon512_maskable.png',
+  'Icons/icon512_rounded.png',
 
 
   
