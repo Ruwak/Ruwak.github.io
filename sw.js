@@ -7,7 +7,7 @@ const STATIC_ASSETS = [
   '/', 
   'index.html',
   'style.css',
-  'manifest.js',
+  'manifest.json',
   'apiexample.js',
   'favicon.ico',
   'screenshots/screenshot1.png',
