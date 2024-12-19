@@ -16,7 +16,7 @@
        }
     ],
     "orientation":"portrait",
-    "start_url" : "https://ruwak.github.io/TVMazeApp/",
+    "start_url" : "https://ruwak.github.io/",
     "scope" : "/",
 
     "display":"standalone",
