@@ -13,7 +13,7 @@ const STATIC_ASSETS = [
   'screenshots/screenshot1.png',
   'screenshots/screenshot2.png',
   'Icons/icon512_maskable.png',
-  'Icons/icon512_rounded.png',
+  'Icons/icon512_rounded.png'
 
 
   
