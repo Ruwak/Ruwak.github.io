@@ -9,7 +9,6 @@ const STATIC_ASSETS = [
   'style.css',
   'manifest.json',
   'apiexample.js',
-  'favicon.ico',
   'screenshots/screenshot1.png',
   'screenshots/screenshot2.png',
   'Icons/icon512_maskable.png',
