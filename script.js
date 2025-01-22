@@ -8,7 +8,6 @@ let totalQuestions = 0;
 let timeLeft = 0; 
 let startTime = 0;
 let interval;
-let questions;
 
 window.onload = function() {
    getAPICata()
@@ -22,7 +21,7 @@ try {
     let response = await fetch(api);
     let data = await response.json();
     console.log(data)
-    gameStart()
+    gameStart(data)
   } catch (error) {
     console.error('Error fetching tv show:', error);
   }
@@ -206,8 +205,7 @@ function checkAnswer(answerItem, answerText, correctAnswer) {
         allAnswerItems[i].style.pointerEvents = 'none'; // Disable further clicks on the answers
     }
 }
-function gameStart(){
-    let data = questions
+function gameStart(data){
     let answersContainer = document.getElementById('everything');
     for(i in data.trivia_categories){
 
