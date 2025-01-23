@@ -38,6 +38,7 @@ async function getAPI(id, numberOfQuestions) {
     getResults(data);
   } catch (error) {
     console.error('Error fetching tv show:', error);
+    document.getElementById('title').innerHTML = "If no questions appear please click here <br> Sorry for the inconvenience"
   }
 }
 function findImage(question) {
