@@ -11,7 +11,7 @@ let interval;
 
 window.onload = function() {
     getAPICata()
-    document.getElementById('title').addEventListener('click', function() {
+    document.getElementById('home').addEventListener('click', function() {
         location.reload();
     });
 }
