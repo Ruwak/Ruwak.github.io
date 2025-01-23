@@ -85,6 +85,8 @@ body {
 
 #everything{
     margin-top: 50px;
+    margin-bottom: 50px;
+
  }
 
 /* Category Button Styling */
@@ -269,8 +271,11 @@ h3 {
     transition: background-color 0.3s, transform 0.3s ease;
     text-align: center;
     font-size: 1.2rem;
-    width: 100%;
     color: #f0f2f5;
+    bottom: 0;
+    width: 100%; /* Full width of the screen */
+    padding: 16px;
+    z-index: 1000; /* Ensure it's above other content */
 }
 
 /* Media Query to Scale Down Elements by 1/3 */
