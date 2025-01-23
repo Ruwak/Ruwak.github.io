@@ -10,7 +10,10 @@ let startTime = 0;
 let interval;
 
 window.onload = function() {
-   getAPICata()
+    getAPICata()
+    document.getElementById('title').addEventListener('click', function() {
+        location.reload();
+    });
 }
 
 
