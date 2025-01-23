@@ -264,9 +264,7 @@ h3 {
 #home{
 
     padding: 15px;
-    margin: 8px 0;
     background-color: #7e4dff;
-    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s ease;
     text-align: center;
