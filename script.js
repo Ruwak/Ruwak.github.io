@@ -34,8 +34,10 @@ async function getAPI(id, numberOfQuestions) {
   try {
     let response = await fetch(`https://opentdb.com/api.php?amount=${numberOfQuestions}&category=${id}&difficulty=${H}`);
     let data = await response.json();
+    document.getElementById('title').innerHTML = "";
     console.log(data)
     getResults(data);
+
   } catch (error) {
     console.error('Error fetching tv show:', error);
     document.getElementById('title').innerHTML = "If no questions appear please click here <br> Sorry for the inconvenience"
