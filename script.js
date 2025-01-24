@@ -166,7 +166,7 @@ async function getResults(data) {
                 createAnswer(answersList, "False", correctAnswer);
             } else if (question.type === 'multiple') {
                 let allAnswers = [...question.incorrect_answers, correctAnswer];
-                allAnswers.sort(function() { return 0.5 - Math.random(); });
+                allAnswers.sort(() => { return 0.5 - Math.random(); });
 
                 for (let j = 0; j < allAnswers.length; j++) {
                     createAnswer(answersList, allAnswers[j], correctAnswer);
