@@ -135,7 +135,7 @@ async function getResults(data) {
     let currentQuestionIndex = 0;
     let answersContainer = document.getElementById('everything');
     answersContainer.innerHTML = ''; 
-    let time = totalQuestions * 5
+    let time = totalQuestions * 10
     startTimer(time);
 
     function displayQuestion() {
